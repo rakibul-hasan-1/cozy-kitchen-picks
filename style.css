@@ -38,3 +38,6 @@ footer a { color: #f1e7da; }
   display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
 .products li span { font-weight: bold; }
 .note { font-family: Arial, sans-serif; font-size: 0.85rem; color: #6b5a4a; }
+.hero { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; margin: 6px 0 14px; display: block; }
+.card img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 8px; margin-bottom: 10px; display: block; }
+.photo-credit { font-family: Arial, sans-serif; font-size: 0.75rem; color: #8a7a6a; margin-top: -8px; }
