@@ -1,0 +1,35 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2b2118;
+  background: #fbf7f1;
+  line-height: 1.7;
+}
+header, footer { background: #3e2c1f; color: #fbf7f1; }
+header .wrap { display: flex; justify-content: space-between; align-items: center; padding: 16px 20px; }
+header a { color: #fbf7f1; text-decoration: none; }
+header .logo { font-size: 1.4rem; font-weight: bold; }
+header nav a { margin-left: 18px; font-family: Arial, sans-serif; font-size: 0.95rem; }
+.wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+main { padding: 30px 0 50px; }
+h1 { font-size: 2.1rem; line-height: 1.25; margin-top: 0; }
+h2 { margin-top: 2em; border-bottom: 2px solid #e6d8c6; padding-bottom: 4px; }
+a { color: #a0522d; }
+.disclosure-note {
+  font-family: Arial, sans-serif; font-size: 0.85rem;
+  background: #f1e7da; padding: 10px 14px; border-radius: 6px;
+}
+.btn {
+  display: inline-block; background: #e47911; color: #fff !important;
+  font-family: Arial, sans-serif; font-weight: bold; text-decoration: none;
+  padding: 10px 18px; border-radius: 6px; margin: 6px 0;
+}
+.btn:hover { background: #c96a0d; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
+.card { background: #fff; border: 1px solid #e6d8c6; border-radius: 10px; padding: 18px; }
+.card h3 { margin-top: 0; }
+.card a.more { font-family: Arial, sans-serif; font-weight: bold; }
+.tip { background: #fff; border-left: 4px solid #e47911; padding: 12px 16px; margin: 18px 0; }
+footer { padding: 24px 0; font-family: Arial, sans-serif; font-size: 0.85rem; }
+footer a { color: #f1e7da; }
