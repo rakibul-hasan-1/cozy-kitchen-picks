@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rakibul-hasan-1.github.io/cozy-kitchen-picks/sitemap.xml
